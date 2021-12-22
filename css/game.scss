@@ -1,0 +1,101 @@
+main {
+	display: flex;
+	height: 100vh;
+}
+
+.d-none {
+	display: none;
+}
+
+.background-red {
+	background-color: rgba(255, 0, 0, .5);
+}
+.background-green {
+	background-color: rgba(0, 255, 0, .5);
+}
+
+.game-container {
+	margin: auto;
+	padding: 10px;
+	background-color: #c6c6c6;
+
+	.game-border {
+		border-style: solid;
+		border-width: 5px;
+		border-color: #808080 #ffffff #ffffff #808080;
+	}
+
+	.game-header {
+		font-family: 'Orbitron', sans-serif;
+		font-weight: 500;
+		font-size: 22px;
+		padding: 5px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 10px;
+		color: red;
+
+		& div {
+			width: 33%;
+		}
+
+		.header-center {
+			text-align: center;
+		}
+		.header-right {
+			text-align: right;
+		}
+		.header-left {
+			text-align: left;
+		}
+
+		.game-status {
+			width: 39px;
+			height: 39px;
+			cursor: pointer;
+		}
+	}
+	.game-flag {
+		display: block;
+		margin: auto;
+	}
+}
+.game {
+	background-color: #cfcfcf;
+	display: inline-block;
+	cursor: pointer;
+}
+.game-row {
+	display: flex;
+}
+.game-cell {
+	text-align: center;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border: 1px solid;
+	box-sizing: border-box;
+}
+.closed-cell {
+	border-width: 3px;
+	background-color: #c6c6c6;
+	border-color: #e9e9e9 #808080 #808080 #fcfcfc;
+}
+.empty-cell {
+	background-color: #c6c6c6;
+	border-color: #8b8b8b #9a9a9a #9a9a9a #8a8a8a;
+}
+
+.one {
+	color: #0000ff;
+}
+.two {
+	color: #008000;
+}
+.three {
+	color: #ff0000;
+}
+.other {
+	color: #000080;
+}

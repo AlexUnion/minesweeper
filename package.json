@@ -1,0 +1,29 @@
+{
+	"name": "minesweeper",
+	"version": "0.0.1",
+	"description": "My realization of popular game 'Minesweeper'",
+	"keywords": [
+		"game",
+		"minesweeper",
+		"vanilla js",
+		"js"
+	],
+	"license": "",
+	"author": "<alex2015mig@gmail.com>",
+	"source": "index.html",
+	"scripts": {
+		"build": "parcel build",
+		"dev": "parcel"
+	},
+	"devDependencies": {
+		"@parcel/packager-raw-url": "^2.0.1",
+		"@parcel/transformer-sass": "^2.0.1",
+		"@parcel/transformer-webmanifest": "^2.0.1",
+		"parcel": "^2.0.1",
+		"parcel-plugin-static-files-copy": "^2.6.0"
+	},
+	"staticFiles": {
+		"staticPath": "public",
+		"watcherGlob": "**"
+	}
+}
