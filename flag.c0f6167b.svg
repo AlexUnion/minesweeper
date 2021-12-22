@@ -1,0 +1,10 @@
+<svg width="16" height="20" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#000000" stroke="#000" x="0.44013" y="17.93453" width="15.169" height="1.581" id="svg_4"></rect>
+  <rect fill="#000000" stroke="#000000" x="2.80473" y="16.16673" width="10.65089" height="1.2574" id="svg_10"></rect>
+  <rect fill="#000000" stroke="#000000" x="7.54265" y="0.3551" width="1.0355" height="17.0858" id="svg_11"></rect>
+  <path fill="#ff0000" stroke="#ff0000" d="m0.91408,6.97078l0,-5.32544l5.99112,5.32544l-5.99112,0z" id="svg_12" transform="rotate(-90, 3.90964, 4.30806)"></path>
+ </g>
+
+</svg>
